@@ -263,7 +263,7 @@ console.log(data);
     .text("Obese (%)");
 
   var circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);
-  
+
 
 
   // x axis labels event listener
@@ -292,7 +292,7 @@ console.log(data);
         
         // updates tooltips with new info
         circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);
-        circleText = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup)
+
         // changes classes to change bold text
         if (chosenXAxis === "poverty") {
           
