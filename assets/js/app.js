@@ -226,14 +226,14 @@ console.log(data);
     .attr("y", 40)
     .attr("value", "age") // value to grab for event listener
     .classed("inactive", true)
-    .text("Age (Median");
+    .text("Age (Median)");
     
   var incomeLabel = labelsGroupX.append("text")
     .attr("x", 0)
     .attr("y", 60)
     .attr("value", "income") // value to grab for event listener
     .classed("inactive", true)
-    .text("Household Income (Median");
+    .text("Household Income (Median)");
     
   var labelsGroupY = chartGroup.append("g")
     .attr("transform", "rotate(-90)");
